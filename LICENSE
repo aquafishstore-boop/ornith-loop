@@ -1,16 +1,29 @@
-MIT License
+ornith-loop Non-Commercial License
 
 Copyright (c) 2026 ornith-loop contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, and distribute the Software for non-commercial purposes,
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. NON-COMMERCIAL USE ONLY. The Software, or any substantial portion of it,
+   may not be sold, licensed for a fee, bundled into a commercial product, or
+   used to generate revenue in any form, directly or indirectly, without the
+   express written permission of the copyright holders.
+
+2. NO IP THEFT. You may not claim the Software, or any portion of it, as your
+   own original work, file patents or trademarks based on it, or otherwise
+   misappropriate the intellectual property contained herein.
+
+3. ATTRIBUTION. The above copyright notice and this permission notice shall be
+   included in all copies or substantial portions of the Software.
+
+4. CONTRIBUTIONS WELCOME. Contributions to this project are encouraged and
+   appreciated. By submitting a contribution (e.g., via pull request), you
+   agree that your contribution is offered under the same terms as this license
+   and grant the copyright holders a perpetual, irrevocable, royalty-free
+   license to include and use your contribution in the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
