@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Ornith learning loop on a schedule (optional)
+
+[Timer]
+OnBootSec=15min
+OnUnitActiveSec=1h
+Persistent=true
+Unit=ornith-loop.service
+
+[Install]
+WantedBy=timers.target

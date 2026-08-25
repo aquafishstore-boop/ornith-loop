@@ -1,0 +1,13 @@
+[Unit]
+Description=Ornith learning loop (one cycle)
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=__ORNITH_LOOP_ROOT__
+Environment=ORNITH_LOOP_ROOT=__ORNITH_LOOP_ROOT__
+ExecStart=__ORNITH_LOOP_ROOT__/bin/ornith-loop once
+Nice=10
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+export ORNITH_LOOP_ROOT="${ORNITH_LOOP_ROOT:-$ROOT}"
+cd "$ROOT"
+exec "$ROOT/.venv/bin/python" -m ornith_loop "$@"
