@@ -57,7 +57,7 @@ class OllamaClient:
         return r.json()
 
     def unload(self) -> None:
-        """Free VRAM so Open WebUI / other clients are not starved."""
+        """Free VRAM so other Ollama clients are not starved."""
         try:
             self._client.post(
                 "/api/generate",
